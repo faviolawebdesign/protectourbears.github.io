@@ -1,0 +1,548 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comic+Relief:wght@400;700&family=Delius+Unicase:wght@400;700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Joti+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Londrina+Solid:wght@100;300;400;900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=National+Park:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ribeye&family=Ribeye+Marrow&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sue+Ellen+Francisco&display=swap');
+
+
+html { scroll-behavior: smooth; }
+{ 
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family: League Spartan;
+}
+
+section {
+  color: white;
+  min-height: 100vh;
+  padding: 5em 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #002233;
+}
+
+section:nth-of-type(1){
+  background-color: #13b2e7;
+}
+
+section:nth-of-type(2){
+  background-color: #007289;
+}
+
+section:nth-of-type(3){
+  background-color: #1e4e63;
+}
+
+
+
+header {
+    padding: 50px;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    background: #0d2432;
+}
+
+body, main, #How_To_Help {
+  font-family: League Spartan;
+}
+
+main p{
+  line-height: 35px;
+}
+
+header img {
+width: 470px;
+height: 200px;
+}
+
+header img:hover {
+                transition:transform 0.3s ease;
+                transform: scale(0.95);
+            }
+
+ nav li:hover {
+                transition:transform 0.3s ease;
+                transform: scale(0.95);
+            }           
+
+#Our_Mission img {
+  width: 600px;
+  padding-bottom: 30px;
+  justify-content: center;
+  border-radius: 10%;
+ flex-flow: row wrap;
+   list-style-type: none; 
+   justify-content: space-evenly;
+}
+
+
+#Environmental_Impact_image{
+  display: flex;
+  float: left;
+  padding: 40px;
+
+}
+
+
+#Environmental_Impact img {
+
+  width: 600px;
+  height: 700px;
+  padding-bottom: 30px;
+  border-radius: 10%;
+  margin: 20px auto;
+    min-height: 200px;
+  min-width: 600px;
+}
+
+
+
+
+#Our_Mission_image {
+  display: flex;
+  float: left;
+  padding: 40px;
+  width: 700px;
+}
+
+#Our_Mission h1 {
+font-size: 85px;
+}
+
+
+#Environmental_Impact h1 {
+
+font-size: 85px;
+}
+
+#Environmental_Impact {
+  display: flex 3;
+font-size: 30px;
+   text-align: left;
+
+  
+}
+
+#Our_Mission  {
+  display: flex 3;
+font-size: 30px;
+   text-align: left;
+   
+  
+}
+
+#Our_Mission_text {
+     -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding: 30px;
+
+
+}
+
+
+#Environmental_Impact_txt {
+
+     -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding: 30px;
+
+}
+
+#Environmental_Impact_text p{
+  padding: 20px;
+  height: 300px;
+
+}
+
+.divider header { 
+ margin: 300px;
+}
+
+#Environmental_Impact_text h1{
+    margin-top: 50px;
+font-size: 85px;
+}
+
+
+
+#Our_Mission_text p{
+  padding: 20px;
+
+}
+
+/* Red border */
+hr {
+
+   border: 4px solid#108db7;
+  border-radius: 3px;
+}
+
+hr.new2 {
+  border: 4px solid #01596a;
+  border-radius: 3px;
+}
+
+
+header p{
+ 
+  text-align: center;
+line-height: 60px;
+padding-top: 30px;
+color: white;
+font-size: 35px;
+   display: flex;
+ justify-content: flex-end;
+}
+
+
+
+#Environmental_Impact {
+
+    font-size: 28px;
+    display:block;
+    justify-content: center;
+  padding: 30px;
+     color: white;
+}
+
+
+#How_To_Help {
+
+min-width: 600px;
+text-align: left;
+
+font-size: 28px;
+ color: white;
+ 
+
+}
+
+#how_to_1 {
+display: flex;
+}
+
+#how_to_1 p {
+      min-height: 300px;
+    min-width: 230px;
+  line-height: 40px;
+font-size: 35px;
+  width: 700px;
+margin-top: 100px;
+margin-left: 50px;
+}
+
+
+#How_To_Help img {
+  min-width: 300px;
+    min-height: 300px;
+width: 300px;
+height: 300px;
+margin: 25px;
+float: left;
+
+}
+
+
+
+#How_To_Help h1 {
+  text-align: center;
+  line-height: 75px;
+padding: 50px;
+font-size: 85px;
+
+}
+
+
+/* Create two equal columns that floats next to each other */
+
+/* Clear floats after the columns */
+
+
+
+
+#Contact {
+    display:inline;
+    justify-content: center;
+  padding: 30px;
+     color: white;
+       background: #002233;
+}
+
+
+
+#Contact img {
+   
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    
+}
+
+#Contact img:hover {
+                transition:transform 0.3s ease;
+                transform: scale(0.95); }
+
+
+#Contact p {
+
+font-size: 25px;
+margin-top: 100px;
+margin-left: 50px;
+}
+
+#Contact h1{
+    margin-bottom: 100px;
+font-size: 85px;
+}
+
+
+nav img {
+  width: 500px;
+  margin-top: -70px;
+}
+
+
+nav ul {
+
+   font-size: 50px;
+   display: flex;
+   flex-flow: row wrap;
+   list-style-type: none; 
+   justify-content: space-evenly;
+}
+
+
+   nav ul li a{
+
+display: inline-block;
+margin-top: 60px;
+   padding: 20px;
+  color: white;
+     transition: color 0.5s, background-color 0.5s;
+   text-decoration: none;
+   }
+
+   .divider {
+    aspect-ratio: 960/300;
+    background: no-repeat center;
+    background-size: cover; 
+   }
+
+   .wave-1 {
+    background-image: url('images/wave-1.svg');
+   }
+
+      .header {
+    background-image: url('images/header.svg');
+   }
+
+   
+   .wave-2 {
+    background-image: url('images/wave-2.svg');
+   }
+
+     .wave-3 {
+    background-image: url('images/wave-3.svg');
+   }
+
+      .contact {
+    background-image: url('images/contact.svg');
+   }
+
+
+  #scrollToTopBtn{
+    position: fixed;
+    right:20px;
+    top: 760px;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 1000;
+    transition: background-color .3s ease;
+    border: 0px;
+  }
+
+    #scrollToTopBtn:hover {
+      background-color: #555;
+    }
+
+  
+/*
+Environmental slide show */
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 29px;
+  width: 30px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 10%;
+  user-select: none;
+}
+
+.next {
+      
+ 
+  right:  620px;
+   border-radius: 5%;
+}
+
+
+.prev {
+
+
+  left: 620px;
+  border-radius: 5%;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(30, 55, 79, 0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 1px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+   text-align: left;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgba(248, 248, 248, 0.8);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgba(30, 55, 79, 0.8);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*  Media queries */
+/* For desktops */
+
+@media (max-width: 1500px) {
+    h1, header p, main, footer p{
+        width: 100%;
+
+    }
+}
+
+/* For tablets and phones */
+
+@media (max-width: 970px){
+    main section { 
+        flex: auto;
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.fadein{
+animation: FadeIn;
+animation-timeline: view();
+animation-range: entry 10% cover 100vh;
+
+}
+
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+   
+  }
+  100% {
+    opacity: 1;
+    
+  }
+}
+
+
+
+.fadein{
+animation: FadeIn;
+animation-timeline: view();
+animation-range: entry 5% cover 100vh;
+
+}
+
+
+.slidein{
+animation: SlideIn;
+animation-timeline: view();
+animation-range: entry 10% cover 100vh;
+
+}
+
+
+
+@keyframes SlideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  100% {
+    opacity: 1;
+     transform: translateX(0);
+  }
+}
+
+
