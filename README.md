@@ -1,2 +1,2 @@
-# protectoubears.github.io
+# protectourbears.github.io
 Portfolio Piece 
